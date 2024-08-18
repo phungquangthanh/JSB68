@@ -1,0 +1,18 @@
+/* dat bien */
+:root{
+  --colored-bg:#1D24CA;
+  --colored-text:#000000;
+  --light-text:#97E7E1;
+  --light-bg:#E8C872;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.colored-section{
+       background-color: var(--colored-bg);
+       color: var(--light-text);
+}
