@@ -1,0 +1,52 @@
+body{
+    padding:0;
+    margin: 0 auto;
+}
+
+#flexbox{
+    background-color: blanchedalmond;
+    display: flex;
+}
+
+.sub{
+    height: 100px;
+    background-color: blue;
+    color:black;
+}
+.w-1 { width: 100px; height: 100px;}
+.w-2 { width: 200px; height: 200px;}
+.w-3 { width: 300px; height: 300px;}
+.w-4 { width: 400px; height: 400px;}
+
+/* flex direction */
+#flexbox {
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-direction: column-reserve;  */
+    /* flex-direction: row-reserve;  */
+}
+
+/* flex wrap (xuong dong) */
+#flexbox{ 
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reserve; */
+    /*flex-wrap: wrap; */
+}
+
+/* flex flow (direction + map) */
+#flexbox{
+    flex-flow: row nowrap;
+}
+
+/* justify content => vertical */
+#flexbox{
+    justify-content: center;
+    /* justify content: start;  */
+    /* justify content: end; */ 
+    /* justify content: baseline; */ 
+}
+
+/* align-items => horizontal */
+#flexbox {
+
+}

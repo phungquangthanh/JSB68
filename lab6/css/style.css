@@ -1,0 +1,15 @@
+body {
+    margin : 0 auto;
+    padding : 0;
+}
+
+header {
+    height : 0;
+}
+main {
+    height: 100vh;
+    background-color: #f7c188 ;
+    overflow: hidden;
+    display: flex;
+    padding:10px;
+}

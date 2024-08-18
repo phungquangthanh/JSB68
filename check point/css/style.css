@@ -1,0 +1,42 @@
+body {
+    margin : 0 auto;
+    padding : 0;
+}
+
+header {
+    height : 0;
+}
+main {
+    height: 980px;
+    width:  1715px;
+    background-color: black ;
+    background-image: url(https://static.vecteezy.com/ti/fotos-kostenlos/p1/24655662-gluhend-star-feld-leuchtet-dunkel-galaxis-hintergrund-generiert-durch-ai-kostenlos-foto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    padding:10px;
+}
+
+h1, h3, pre, ul, blockquote {
+    margin : 0;
+}
+
+h1 {
+    color :brown;
+}
+
+h3 {
+    padding-right : 30px;
+    text-align: end;
+}
+
+/* id */
+#content {
+    width: 60%;
+}
+
+pre { 
+    padding-right: 10px;
+    max-height : 350px;
+}
